@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+.game-interface {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.gameIcon {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gameIcon img {
+    width: 200px;
+    height: 200px;
+}
+
+.human img {
+    transform: scaleX(-1);
+}
+
+.btn-container button {
+    padding: 10px 20px;
+}
