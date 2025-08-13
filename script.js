@@ -62,6 +62,8 @@ function playGame(humanChoiceNumber) {
 
     if (confirm("Next Round?")) {
       roundCount++;
+      document.getElementById("computerImg").src = "rock.png";
+      document.getElementById("humanImg").src = "rock.png";
     } else {
       alert("Thanks for playing!");
     }
